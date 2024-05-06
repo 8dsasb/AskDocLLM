@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load the CSV data into a DataFrame
-df = pd.read_csv("CleanData.csv")
+df = pd.read_csv("CleanLatest.csv")
 
 # Create a TF-IDF vectorizer
 vectorizer = TfidfVectorizer()

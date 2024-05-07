@@ -76,7 +76,8 @@ def generate_response(query):
     else:
         return f"Error: {response.status_code}"
 
-# Streamlit app
+# Streamlit app setup
+
 def main():
     st.title("Brainfish Medical Assistant")
 
